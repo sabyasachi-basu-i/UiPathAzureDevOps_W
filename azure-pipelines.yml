@@ -20,7 +20,7 @@ stages:
           outputType: 'Process'
           orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
           outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-          runWorkflowAnalysis: true
+          # runWorkflowAnalysis: true
           traceLevel: 'Verbose'
 
       # - task: UiPathPack@2
