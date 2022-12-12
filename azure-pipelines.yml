@@ -47,8 +47,10 @@ stages:
             targetType: 'inline'
             script: |
               # Write your PowerShell commands here.              
-              Write-Host ($(Build) | Format-List | Out-String)
-
+              Write-Host "$(Build.DefinitionName)"
+              Write-Host "$(Build.DefinitionVersion)"
+              Write-Host "$(Build.BuildNumber)"
+              Write-Host "$(Build.Repository.LocalPath)"
 
   - stage: Assest
     displayName: Create Assests
