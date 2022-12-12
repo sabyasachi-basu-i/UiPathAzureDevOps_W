@@ -19,7 +19,7 @@ stages:
           projectJsonPath: '$(Build.SourcesDirectory)\project.json'
           outputType: 'Process'
           orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
-          outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+          outputPath: $(Build.ArtifactStagingDirectory)
           # runWorkflowAnalysis: true
           traceLevel: 'Verbose'
 
