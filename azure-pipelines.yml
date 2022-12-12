@@ -37,6 +37,7 @@ stages:
       
   - stage: Log
     displayName: Log Package
+    dependsOn: Build
     jobs: 
       - job: LogDetails2
         pool: Default
@@ -51,6 +52,7 @@ stages:
 
   - stage: Assest
     displayName: Create Assests
+    dependsOn: Log
     jobs:
       - job: CreateAssests
         pool: Default
@@ -64,7 +66,7 @@ stages:
 
   - stage: DeployDEV
     displayName: Deploy build artifact to DEV
-    dependsOn: Build
+    dependsOn: Log
     condition: succeeded()
     jobs:
       - deployment: deployDEV
@@ -83,7 +85,7 @@ stages:
                 
   - stage: WorkflowAnalyser
     displayName: RunWorkflow Analyser
-    dependsOn: Build
+    dependsOn: Log
     condition: succeeded()
     jobs:
         - job: WorkflowAnalyser
@@ -103,7 +105,7 @@ stages:
 
   - stage : CodeQuality
     displayName: Check Code Analysis
-    dependsOn: Build
+    dependsOn: Log
     condition: succeeded()
     jobs:
       - job : CodeQuality
