@@ -33,6 +33,21 @@ stages:
       #     outputPath: '$(Build.ArtifactStagingDirectory)'
       # - publish: $(Build.ArtifactStagingDirectory)
       #   artifact: drop
+      
+      
+  - stage: Log
+    displayName: Log Package
+    jobs: 
+      - job: LogDetails2
+        pool: Default
+        steps:   
+        - task: PowerShell@2
+          inputs:
+            targetType: 'inline'
+            script: |
+              # Write your PowerShell commands here.              
+              Write-Host "$(Build)"
+
 
   - stage: Assest
     displayName: Create Assests
