@@ -47,7 +47,7 @@ stages:
             targetType: 'inline'
             script: |
               # Write your PowerShell commands here.              
-              Write-Host "$(Build)"
+              Write-Host "$(Build.SourcesDirectory)"
 
 
   - stage: Assest
