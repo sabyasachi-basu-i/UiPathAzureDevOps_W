@@ -1,21 +1,23 @@
 trigger:
-  - master
+  - main
 variables:
-  - group: DEV
+  - group: UiPath
+  - name: agent.preferPowerShellOnContainers
+    value: "True"
 
 stages:
   - stage: Build
     displayName: Build Package
     jobs: 
     - job: BuildPackage
-      pool: LAPTOP-Q338O4FK
+      pool: Default
       steps:    
       - task: UiPathPack@2
         inputs:
           versionType: 'AutoVersion'
           projectJsonPath: '$(Build.SourcesDirectory)\project.json'
           outputType: 'Process'
-          orchestratorConnection: 'UiPath DEV'
+          orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
           outputPath: '$(Build.ArtifactStagingDirectory)'
       - publish: $(Build.ArtifactStagingDirectory)
         artifact: drop
@@ -24,12 +26,12 @@ stages:
     displayName: Create Assests
     jobs:
       - job: CreateAssests
-        pool: LAPTOP-Q338O4FK
+        pool: Default
         steps:
         - task: UiPathAssets@2
           inputs:
-            orchestratorConnection: 'UiPath DEV'
-            folderName: 'Shared'
+            orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
+            folderName: 'Default'
             assetActionType: 'Deploy'
             csvFile: '$(Build.SourcesDirectory)\Data\Assests.csv'
 
@@ -40,7 +42,7 @@ stages:
     jobs:
       - deployment: deployDEV
         displayName: Deploy package to DEV Orchestrator
-        pool: LAPTOP-Q338O4FK
+        pool: Default
         environment: DEV
         strategy:
          runOnce:
@@ -48,9 +50,9 @@ stages:
            steps:
             - task: UiPathDeploy@2
               inputs:
-                orchestratorConnection: 'UiPath DEV'
+                orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
                 packagesPath: '$(Pipeline.Workspace)\drop\'
-                folderName: 'Shared'
+                folderName: 'Default'
                 
   - stage: WorkflowAnalyser
     displayName: RunWorkflow Analyser
@@ -59,7 +61,7 @@ stages:
     jobs:
         - job: WorkflowAnalyser
           displayName: AnalyseProject Using Workflow Cli
-          pool: LAPTOP-Q338O4FK
+          pool: Default
           steps:
           - task: PowerShell@2
             inputs:
@@ -67,7 +69,7 @@ stages:
               filePath: $(Build.SourcesDirectory)\Data\Workflow-Analyzer-CLI-Script
               arguments: > # Use this to avoid newline characters in multiline string
                 -ProjectFilePath $(Build.SourcesDirectory)\project.json
-                -ExecutableFilePath "C:\Users\prasa\AppData\Local\UiPath\app-21.4.4\UiPath.Studio.CommandLine.exe"
+                -ExecutableFilePath "C:\Program Files\UiPath\Studio\UiPath.Studio.CommandLine.exe"
                 -OutputFilePath '$(Pipeline.Workspace)\drop\Workflow-Analysis.json'
               workingDirectory: $(Build.SourcesDirectory)
             displayName: 'Analyse Project'
@@ -82,11 +84,11 @@ stages:
           - task: SonarCloudPrepare@1
             inputs:
               SonarCloud: 'Sonar'
-              organization: 'rpabotsworld'
+              organization: 'innowise'
               scannerMode: 'CLI'
               configMode: 'manual'
-              cliProjectKey: 'rpabotsworld_UiPathAzureDevOpsExample'
-              cliProjectName: 'UiPathAzureDevOpsExample'
+              cliProjectKey: 'innowise_UiPathAzureDevOpsExample'
+              cliProjectName: 'UiPathAzureDevOps'
               cliSources: '.'
           - task: SonarCloudAnalyze@1
           - task: SonarCloudPublish@1
@@ -100,13 +102,13 @@ stages:
     condition: succeeded()
     jobs:
       - job: TestDEV
-        pool: LAPTOP-Q338O4FK
+        pool: Default
         steps:
           - task: UiPathTest@2
             inputs:
               testTarget: 'TestSet'
-              orchestratorConnection: 'UiPATH RPABOTSWORLD'
-              testSet: 'UiPathAzureDevOps_Tests'
-              folderName: 'Shared'
+              orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
+              testSet: 'UiPathAzureDevOps_Test'
+              folderName: 'Default'
               testReportDestination: '$(Pipeline.Workspace)\drop\'
 
