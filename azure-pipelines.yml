@@ -12,15 +12,27 @@ stages:
     - job: BuildPackage
       pool: Default
       steps:    
+      
       - task: UiPathPack@2
         inputs:
-          versionType: 'AutoVersion'
+          versionType: 'ManualVersion'
+          version: '1.0.$(Build.BuildNumber)'
           projectJsonPath: '$(Build.SourcesDirectory)\project.json'
           outputType: 'Process'
           orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
-          outputPath: '$(Build.ArtifactStagingDirectory)'
-      - publish: $(Build.ArtifactStagingDirectory)
-        artifact: drop
+          outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+          runWorkflowAnalysis: true
+          traceLevel: 'Verbose'
+
+      # - task: UiPathPack@2
+      #   inputs:
+      #     versionType: 'AutoVersion'
+      #     projectJsonPath: ''
+      #     outputType: 'Process'
+      #     orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
+      #     outputPath: '$(Build.ArtifactStagingDirectory)'
+      # - publish: $(Build.ArtifactStagingDirectory)
+      #   artifact: drop
 
   - stage: Assest
     displayName: Create Assests
@@ -111,4 +123,3 @@ stages:
               testSet: 'UiPathAzureDevOps_Test'
               folderName: 'Default'
               testReportDestination: '$(Pipeline.Workspace)\drop\'
-
