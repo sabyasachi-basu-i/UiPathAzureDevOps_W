@@ -39,7 +39,7 @@ stages:
     displayName: Log Package
     dependsOn: Build
     jobs: 
-      - job: LogDetails2
+      - job: LogDetails
         pool: Default
         steps:   
         - task: PowerShell@2
@@ -85,6 +85,15 @@ stages:
                 packagesPath: '$(Pipeline.Workspace)\drop\'
                 folderName: 'Default'
                 
+            - task: PowerShell@2
+              inputs:
+                targetType: 'inline'
+                script: |
+                  # Write your PowerShell commands here.              
+                  Write-Host "Deleting the Uploaded Package"
+                  Get-ChildItem -Path "'$(Pipeline.Workspace)\drop\'" -Include *.nupkg -File -Recurse | foreach { $_.Delete()}
+            
+
   - stage: WorkflowAnalyser
     displayName: RunWorkflow Analyser
     dependsOn: Log
