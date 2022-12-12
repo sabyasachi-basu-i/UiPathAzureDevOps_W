@@ -10956,7 +10956,7 @@
             "version": "[21.10.8, 21.10.8]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\SabyasachiBasu\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
