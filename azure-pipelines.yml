@@ -12,7 +12,16 @@ stages:
     - job: BuildPackage
       pool: Default
       steps:    
-      
+
+      # Deleting older packages from drop folder
+      - task: PowerShell@2
+        inputs:
+          targetType: 'inline'
+          script: |
+            # Write your PowerShell commands here.              
+            Write-Host "Deleting the Uploaded Package"
+            Get-ChildItem -Path "$(Pipeline.Workspace)\drop\" -Include *.nupkg -File -Recurse | foreach { $_.Delete()}
+
       - task: UiPathPack@2
         inputs:
           versionType: 'AutoVersion'
@@ -85,6 +94,7 @@ stages:
                 packagesPath: '$(Pipeline.Workspace)\drop\'
                 folderName: 'Default'
                 
+      # Cleaning just created packages from drop folder
             - task: PowerShell@2
               inputs:
                 targetType: 'inline'
