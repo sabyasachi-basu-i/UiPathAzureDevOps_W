@@ -15,8 +15,7 @@ stages:
       
       - task: UiPathPack@2
         inputs:
-          versionType: 'ManualVersion'
-          version: '1.0.$(Build.BuildNumber)'
+          versionType: 'AutoVersion'
           projectJsonPath: '$(Build.SourcesDirectory)\project.json'
           outputType: 'Process'
           orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
@@ -26,7 +25,8 @@ stages:
 
       # - task: UiPathPack@2
       #   inputs:
-      #     versionType: 'AutoVersion'
+      #   versionType: 'ManualVersion'
+      #   version: '1.0.$(Build.BuildNumber)'
       #     projectJsonPath: ''
       #     outputType: 'Process'
       #     orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
