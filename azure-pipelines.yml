@@ -83,7 +83,7 @@ stages:
         steps:
           - task: SonarCloudPrepare@1
             inputs:
-              SonarCloud: 'Sonar'
+              SonarCloud: 'UiPath_Sonar_AzureDevOps'
               organization: 'innowise'
               scannerMode: 'CLI'
               configMode: 'manual'
