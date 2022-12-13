@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "1.0.124611585",
+  "projectVersion": "1.0.124612416",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -44,7 +44,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "0cfc1331-4bce-41dd-be70-6e416508755a",
-        "dataVariationFilePath": ".variations\\Main.json",
+        "dataVariationFilePath": ".variations\\TestData.json",
         "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
       }

@@ -93,7 +93,6 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="f" />
       <Variable x:TypeArguments="x:Int32" Name="l" />
-      <Variable x:TypeArguments="x:Int32" Name="sum" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -131,13 +130,13 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Main workflow - Main to perform the actions" sap:VirtualizedContainerService.HintSize="338,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Main.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:Int32" x:Key="in_first">
-            <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="f" />
+          <InArgument x:TypeArguments="x:Int32" x:Key="arg_in_first">
+            <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="in_first" />
           </InArgument>
-          <InArgument x:TypeArguments="x:Int32" x:Key="in_last">
-            <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="l" />
+          <InArgument x:TypeArguments="x:Int32" x:Key="arg_in_last">
+            <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="in_last" />
           </InArgument>
-          <OutArgument x:TypeArguments="x:Int32" x:Key="sum">
+          <OutArgument x:TypeArguments="x:Int32" x:Key="arg_sum">
             <VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="sum" />
           </OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
