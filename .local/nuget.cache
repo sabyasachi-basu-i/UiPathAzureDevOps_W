@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6rVjXVvqUtm+maIZUQQykgORyqCSCUOgFUQdMsfUXOpk900gAsSaZyT11kjmI3BIrxLg/B0fSxPRJNKUgJcJzA==",
+  "dgSpecHash": "J43rgm2gPPP5/h+ljPPllmR2qo/siccgMqqCiw3nYF1yyDGfC8B+aWEPiDpocCDA3EqBYahnFjvTjEW7vg5W9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\SabyasachiBasu\\Documents\\CICD\\UiPathAzureDevOps_W\\.local\\",
   "expectedPackageFiles": [
@@ -136,10 +136,10 @@
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.imageprocessing\\21.10.3\\uipath.imageprocessing.21.10.3.nupkg.sha512",
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\uipath.ocr.activities.3.3.2.nupkg.sha512",
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1\\uipath.ocr.contracts.2.9.1.nupkg.sha512",
-    "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\21.10.0\\uipath.platform.21.10.0.nupkg.sha512",
+    "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\22.10.2\\uipath.platform.22.10.2.nupkg.sha512",
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\uipath.system.activities.21.10.5.nupkg.sha512",
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
-    "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\1.4.6\\uipath.testing.activities.1.4.6.nupkg.sha512",
+    "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\uipath.testing.activities.22.10.2.nupkg.sha512",
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.8\\uipath.uiautomation.activities.21.10.8.nupkg.sha512",
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.vision\\3.1.4\\uipath.vision.3.1.4.nupkg.sha512"
   ],

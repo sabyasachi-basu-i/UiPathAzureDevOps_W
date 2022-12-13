@@ -5,7 +5,7 @@
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.System.Activities": "[21.10.5]",
-    "UiPath.Testing.Activities": "[1.4.6]",
+    "UiPath.Testing.Activities": "[22.10.2]",
     "UiPath.UIAutomation.Activities": "[21.10.8]"
   },
   "webServices": [],
@@ -44,6 +44,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "0cfc1331-4bce-41dd-be70-6e416508755a",
+        "dataVariationFilePath": ".variations\\Main.json",
         "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
       }
