@@ -134,11 +134,11 @@ stages:
           - task: SonarCloudPrepare@1
             inputs:
               SonarCloud: 'UiPath_Sonar_AzureDevOps'
-              organization: 'innowise'
+              organization: 'sabyasachi-basu-i'
               scannerMode: 'CLI'
               configMode: 'manual'
-              cliProjectKey: 'innowise_UiPathAzureDevOpsExample'
-              cliProjectName: 'UiPathAzureDevOps'
+              cliProjectKey: 'sabyasachi-basu-i_UiPathAzureDevOps_W'
+              cliProjectName: 'UiPathAzureDevOps_W'
               cliSources: '.'
           - task: SonarCloudAnalyze@1
           - task: SonarCloudPublish@1
