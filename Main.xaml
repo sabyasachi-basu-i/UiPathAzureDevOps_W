@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1184,633</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1181,660</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="56">
@@ -86,7 +86,7 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="400,568" sap2010:WorkflowViewState.IdRef="Sequence_29">
+  <Sequence sap:VirtualizedContainerService.HintSize="476,595" sap2010:WorkflowViewState.IdRef="Sequence_29">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="first" />
       <Variable x:TypeArguments="x:Int32" Name="last" />
@@ -96,7 +96,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="Assign - arg to var first" sap:VirtualizedContainerService.HintSize="358,70" sap2010:WorkflowViewState.IdRef="Assign_28">
+    <Assign DisplayName="Assign - arg to var first" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_28">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Int32">[first]</OutArgument>
       </Assign.To>
@@ -104,7 +104,7 @@
         <InArgument x:TypeArguments="x:Int32">[arg_in_first]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Assign - arg to var last" sap:VirtualizedContainerService.HintSize="358,70" sap2010:WorkflowViewState.IdRef="Assign_29">
+    <Assign DisplayName="Assign - arg to var last" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_29">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Int32">[last]</OutArgument>
       </Assign.To>
@@ -112,7 +112,7 @@
         <InArgument x:TypeArguments="x:Int32">[arg_in_last]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Assign - sum" sap:VirtualizedContainerService.HintSize="358,70" sap2010:WorkflowViewState.IdRef="Assign_30">
+    <Assign DisplayName="Assign - sum" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_30">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Int32">[arg_sum]</OutArgument>
       </Assign.To>
@@ -120,6 +120,6 @@
         <InArgument x:TypeArguments="x:Int32">[arg_in_first+arg_in_last]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="358,148" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here:  &quot;+ arg_sum.ToString]" />
+    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here :  &quot;+ arg_sum.ToString]" />
   </Sequence>
 </Activity>

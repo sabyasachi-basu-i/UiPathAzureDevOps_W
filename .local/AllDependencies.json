@@ -11015,6 +11015,7 @@
   },
   "packageFolders": {
     "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\UiPath\\NugetFallbackFolder": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -11025,6 +11026,7 @@
       "packagesPath": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SabyasachiBasu\\Documents\\CICD\\UiPathAzureDevOps_W\\.local",
       "fallbackFolders": [
+        "C:\\ProgramData\\UiPath\\NugetFallbackFolder",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ]
     },
