@@ -1,8 +1,8 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="arg_in_first" Type="InArgument(x:Int32)" />
-    <x:Property Name="arg_in_last" Type="InArgument(x:Int32)" />
-    <x:Property Name="arg_sum" Type="OutArgument(x:Int32)" />
+    <x:Property Name="in_First" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_Last" Type="InArgument(x:Int32)" />
+    <x:Property Name="out_Sum" Type="OutArgument(x:Int32)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
@@ -101,7 +101,7 @@
         <OutArgument x:TypeArguments="x:Int32">[first]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">[arg_in_first]</InArgument>
+        <InArgument x:TypeArguments="x:Int32">[in_first]</InArgument>
       </Assign.Value>
     </Assign>
     <Assign DisplayName="Assign - arg to var last" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_29">
@@ -109,17 +109,17 @@
         <OutArgument x:TypeArguments="x:Int32">[last]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">[arg_in_last]</InArgument>
+        <InArgument x:TypeArguments="x:Int32">[in_last]</InArgument>
       </Assign.Value>
     </Assign>
     <Assign DisplayName="Assign - sum" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_30">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:Int32">[arg_sum]</OutArgument>
+        <OutArgument x:TypeArguments="x:Int32">[out_sum]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:Int32">[arg_in_first+arg_in_last]</InArgument>
+        <InArgument x:TypeArguments="x:Int32">[in_first+in_last]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here :  &quot;+ arg_sum.ToString]" />
+    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here :  &quot;+ out_sum.ToString]" />
   </Sequence>
 </Activity>

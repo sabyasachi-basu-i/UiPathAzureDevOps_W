@@ -1,13 +1,13 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" this:TestCase.in_first="0" this:TestCase.in_last="1" this:TestCase.sum="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" this:TestCase.in_First="0" this:TestCase.in_Last="1" this:TestCase.in_Sum="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="in_first" Type="InArgument(x:Int32)" />
-    <x:Property Name="in_last" Type="InArgument(x:Int32)" />
-    <x:Property Name="sum" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_First" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_Last" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_Sum" Type="InArgument(x:Int32)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1184,1434</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1181,1239</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="52">
@@ -89,24 +89,30 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="520,1369" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="538,1174" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="f" />
       <Variable x:TypeArguments="x:Int32" Name="l" />
-      <Variable x:TypeArguments="x:Int32" Name="var_sum" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="478,302" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="496,315" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign DisplayName="Assign - f to number" sap:VirtualizedContainerService.HintSize="338,70" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign DisplayName="Assign - f to number" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[f]</OutArgument>
         </Assign.To>
@@ -114,7 +120,7 @@
           <InArgument x:TypeArguments="x:Int32">[in_first]</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign DisplayName="Assign- l to number" sap:VirtualizedContainerService.HintSize="338,70" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign DisplayName="Assign- l to number" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[l]</OutArgument>
         </Assign.To>
@@ -123,27 +129,27 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="478,244" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="496,224" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Main workflow - Main to perform the actions" sap:VirtualizedContainerService.HintSize="338,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Main.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Main workflow - Main to perform the actions" sap:VirtualizedContainerService.HintSize="388,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Main.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:Int32" x:Key="arg_in_first">
+          <InArgument x:TypeArguments="x:Int32" x:Key="in_First">
             <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="in_first" />
           </InArgument>
-          <InArgument x:TypeArguments="x:Int32" x:Key="arg_in_last">
+          <InArgument x:TypeArguments="x:Int32" x:Key="in_Last">
             <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="in_last" />
           </InArgument>
-          <OutArgument x:TypeArguments="x:Int32" x:Key="arg_sum">
-            <VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="var_sum" />
+          <OutArgument x:TypeArguments="x:Int32" x:Key="out_Sum">
+            <VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="in_Sum" />
           </OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="478,653" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="496,467" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="result" />
       </Sequence.Variables>
@@ -152,17 +158,17 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator - Sum" sap:VirtualizedContainerService.HintSize="416,32" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" Result="[result]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator - Sum" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" Result="[result]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
-          <InArgument x:TypeArguments="x:Int32">[sum]</InArgument>
+          <InArgument x:TypeArguments="x:Int32">[in_Sum]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
         <uta:VerifyExpressionWithOperator.SecondExpression>
           <InArgument x:TypeArguments="x:Int32">[f+l]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <If Condition="[result]" DisplayName="If - result is true" sap:VirtualizedContainerService.HintSize="416,459" sap2010:WorkflowViewState.IdRef="If_1">
+      <If Condition="[result]" DisplayName="If - result is true" sap:VirtualizedContainerService.HintSize="388,291" sap2010:WorkflowViewState.IdRef="If_1">
         <If.Then>
-          <ui:LogMessage DisplayName="Log Message - Pass" sap:VirtualizedContainerService.HintSize="334,148" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Test Pass&quot;]" />
+          <ui:LogMessage DisplayName="Log Message - Pass" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Test Pass&quot;]" />
         </If.Then>
         <If.Else>
           <ui:LogMessage DisplayName="Log Message - Fail" sap:VirtualizedContainerService.HintSize="334,148" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[&quot;Not Pass&quot;]" />

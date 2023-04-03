@@ -3,10 +3,8 @@
   "description": "Process for CI CD integration and DevOps Testing",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.System.Activities": "[21.10.5]",
-    "UiPath.Testing.Activities": "[22.10.2]",
-    "UiPath.UIAutomation.Activities": "[21.10.8]"
+    "UiPath.Testing.Activities": "[22.10.2]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -20,6 +18,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
