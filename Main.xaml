@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1088,819</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1189,683</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="56">
@@ -120,6 +120,6 @@
         <InArgument x:TypeArguments="x:Int32">[in_first+in_last]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here:  &quot;+ out_sum.ToString]" />
+    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here :  &quot;+ out_sum.ToString]" />
   </Sequence>
 </Activity>
