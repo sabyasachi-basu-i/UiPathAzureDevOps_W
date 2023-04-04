@@ -104,25 +104,25 @@ stages:
                   Get-ChildItem -Path "$(Pipeline.Workspace)\drop\" -Include *.nupkg -File -Recurse | foreach { $_.Delete()}
             
 
-  - stage: WorkflowAnalyser
-    displayName: RunWorkflow Analyser
-    dependsOn: Log
-    condition: succeeded()
-    jobs:
-        - job: WorkflowAnalyser
-          displayName: AnalyseProject Using Workflow Cli
-          pool: Default
-          steps:
-          - task: PowerShell@2
-            inputs:
-              targetType: filePath
-              filePath: $(Build.SourcesDirectory)\Data\Workflow-Analyzer-CLI-Script.ps1
-              arguments: > # Use this to avoid newline characters in multiline string
-                -ProjectFilePath $(Build.SourcesDirectory)\project.json
-                -ExecutableFilePath "C:\'Program Files'\UiPath\Studio\UiPath.Studio.CommandLine.exe"
-                -OutputFilePath '$(Pipeline.Workspace)\drop\Workflow-Analysis.json'
-              workingDirectory: $(Build.SourcesDirectory)
-            displayName: 'Analyse Project'
+  # - stage: WorkflowAnalyser
+  #   displayName: RunWorkflow Analyser
+  #   dependsOn: Log
+  #   condition: succeeded()
+  #   jobs:
+  #       - job: WorkflowAnalyser
+  #         displayName: AnalyseProject Using Workflow Cli
+  #         pool: Default
+  #         steps:
+  #         - task: PowerShell@2
+  #           inputs:
+  #             targetType: filePath
+  #             filePath: $(Build.SourcesDirectory)\Data\Workflow-Analyzer-CLI-Script.ps1
+  #             arguments: > # Use this to avoid newline characters in multiline string
+  #               -ProjectFilePath $(Build.SourcesDirectory)\project.json
+  #               -ExecutableFilePath "C:\'Program Files'\UiPath\Studio\UiPath.Studio.CommandLine.exe"
+  #               -OutputFilePath '$(Pipeline.Workspace)\drop\Workflow-Analysis.json'
+  #             workingDirectory: $(Build.SourcesDirectory)
+  #           displayName: 'Analyse Project'
 
   - stage : CodeQuality
     displayName: Check Code Analysis
