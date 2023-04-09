@@ -62,10 +62,10 @@ stages:
               Write-Host "$(Build.Repository.LocalPath)"
 
   - stage: Assest
-    displayName: Create Assests
+    displayName: Create Assets
     dependsOn: Log
     jobs:
-      - job: CreateAssests
+      - job: CreateAssets
         pool: Default
         steps:
         - task: UiPathAssets@2
@@ -74,6 +74,7 @@ stages:
             folderName: 'Default'
             assetActionType: 'Deploy'
             csvFile: '$(Build.SourcesDirectory)\Data\Assests.csv'
+            traceLevel: 'Verbose'
 
   - stage: DeployDEV
     displayName: Deploy build artifact to DEV
@@ -94,14 +95,6 @@ stages:
                 packagesPath: '$(Pipeline.Workspace)\drop\'
                 folderName: 'Default'
                 
-      # Cleaning just created packages from drop folder
-            - task: PowerShell@2
-              inputs:
-                targetType: 'inline'
-                script: |
-                  # Write your PowerShell commands here.              
-                  Write-Host "Deleting the Uploaded Package"
-                  Get-ChildItem -Path "$(Pipeline.Workspace)\drop\" -Include *.nupkg -File -Recurse | foreach { $_.Delete()}
             
 
   - stage: WorkflowAnalyser
