@@ -1,5 +1,6 @@
 {
   "name": "UiPathAzureDevOps_W",
+  "projectId": "7b1b7ff4-d918-4a7a-8ad1-da0027cfb5c3",
   "description": "Process for CI CD integration and DevOps Testing",
   "main": "Main.xaml",
   "dependencies": {

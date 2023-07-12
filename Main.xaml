@@ -120,6 +120,6 @@
         <InArgument x:TypeArguments="x:Int32">[in_first+in_last]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here :  &quot;+ out_sum.ToString]" />
+    <ui:LogMessage DisplayName="Log Message - sum" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;Sum is here:  &quot;+ out_sum.ToString]" />
   </Sequence>
 </Activity>
