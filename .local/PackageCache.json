@@ -3,7 +3,7 @@
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "21.10.5"
+        "Version": "23.10.4"
       },
       "Assemblies": [
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
@@ -18,9 +18,9 @@
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
@@ -31,8 +31,6 @@
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.Management.Infrastructure.CimCmdlets.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.Native.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\2.0.0\\runtimes/win10-x64/lib/netstandard1.6/Microsoft.Management.Infrastructure.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Diagnostics.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Management.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0\\runtimes/win/lib/net5.0/Microsoft.PowerShell.Commands.Utility.dll",
@@ -47,7 +45,8 @@
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\namotion.reflection\\1.0.14\\lib/netstandard2.0/Namotion.Reflection.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\njsonschema\\10.2.2\\lib/netstandard2.0/NJsonSchema.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\sharpziplib\\1.2.0\\lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.componentmodel.composition.registration\\5.0.0\\lib/netstandard2.1/System.ComponentModel.Composition.Registration.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.odbc\\5.0.0\\runtimes/win/lib/netcoreapp2.0/System.Data.Odbc.dll",
@@ -67,18 +66,22 @@
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.duplex\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Duplex.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.http\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Http.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.nettcp\\4.7.0\\lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.Primitives.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib/netcoreapp2.1/System.ServiceModel.Primitives.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Security.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib/netstandard2.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\lib/net5.0-windows7.0/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\lib/net5.0-windows7.0/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\lib/net5.0-windows7.0/UiPath.System.Activities.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.codedworkflows\\23.10.3\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\23.10.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\23.10.4\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime\\23.10.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\23.10.4"
     },
     {
       "Package": {
@@ -91,12 +94,12 @@
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/netstandard2.0/TelemetryClient.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib/net5.0-windows7.0/UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib/net5.0-windows7.0/UiPath.Testing.Activities.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib/net5.0-windows7.0/UiPath.Testing.RulesLibrary.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib/net5.0-windows7.0/UiPath.Testing.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib/net5.0-windows7.0/UiPath.Testing.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib/net5.0-windows7.0/UiPath.Testing.RulesLibrary.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2"
     }
@@ -278,24 +281,24 @@
     },
     "Microsoft.CodeAnalysis.Analyzers": {
       "Id": "Microsoft.CodeAnalysis.Analyzers",
-      "Version": "3.0.0",
+      "Version": "3.3.3",
       "Dependencies": []
     },
     "Microsoft.CodeAnalysis.Common": {
       "Id": "Microsoft.CodeAnalysis.Common",
-      "Version": "3.8.0",
+      "Version": "4.5.0-2.22527.10",
       "Dependencies": [
         {
           "Item1": "Microsoft.CodeAnalysis.Analyzers",
-          "Item2": "[3.0.0, )"
+          "Item2": "[3.3.3, )"
         },
         {
           "Item1": "System.Collections.Immutable",
-          "Item2": "[5.0.0, )"
+          "Item2": "[6.0.0, )"
         },
         {
           "Item1": "System.Memory",
-          "Item2": "[4.5.4, )"
+          "Item2": "[4.5.5, )"
         },
         {
           "Item1": "System.Reflection.Metadata",
@@ -303,11 +306,11 @@
         },
         {
           "Item1": "System.Runtime.CompilerServices.Unsafe",
-          "Item2": "[4.7.1, )"
+          "Item2": "[6.0.0, )"
         },
         {
           "Item1": "System.Text.Encoding.CodePages",
-          "Item2": "[4.5.1, )"
+          "Item2": "[6.0.0, )"
         },
         {
           "Item1": "System.Threading.Tasks.Extensions",
@@ -317,21 +320,21 @@
     },
     "Microsoft.CodeAnalysis.CSharp": {
       "Id": "Microsoft.CodeAnalysis.CSharp",
-      "Version": "3.8.0",
+      "Version": "4.5.0-2.22527.10",
       "Dependencies": [
         {
           "Item1": "Microsoft.CodeAnalysis.Common",
-          "Item2": "[3.8.0, 3.8.0]"
+          "Item2": "[4.5.0-2.22527.10, 4.5.0-2.22527.10]"
         }
       ]
     },
     "Microsoft.CodeAnalysis.VisualBasic": {
       "Id": "Microsoft.CodeAnalysis.VisualBasic",
-      "Version": "3.8.0",
+      "Version": "4.5.0-2.22527.10",
       "Dependencies": [
         {
           "Item1": "Microsoft.CodeAnalysis.Common",
-          "Item2": "[3.8.0, 3.8.0]"
+          "Item2": "[4.5.0-2.22527.10, 4.5.0-2.22527.10]"
         }
       ]
     },
@@ -918,6 +921,11 @@
       "Version": "7.1.0",
       "Dependencies": []
     },
+    "MimeTypes": {
+      "Id": "MimeTypes",
+      "Version": "2.4.1",
+      "Dependencies": []
+    },
     "Namotion.Reflection": {
       "Id": "Namotion.Reflection",
       "Version": "1.0.14",
@@ -1024,7 +1032,12 @@
     },
     "SharpZipLib": {
       "Id": "SharpZipLib",
-      "Version": "1.2.0",
+      "Version": "1.3.3",
+      "Dependencies": []
+    },
+    "System.Activities.ViewModels": {
+      "Id": "System.Activities.ViewModels",
+      "Version": "1.0.0-20230906.1",
       "Dependencies": []
     },
     "System.CodeDom": {
@@ -1034,8 +1047,13 @@
     },
     "System.Collections.Immutable": {
       "Id": "System.Collections.Immutable",
-      "Version": "5.0.0",
-      "Dependencies": []
+      "Version": "6.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[6.0.0, )"
+        }
+      ]
     },
     "System.ComponentModel.Composition": {
       "Id": "System.ComponentModel.Composition",
@@ -1407,7 +1425,7 @@
     },
     "System.Memory": {
       "Id": "System.Memory",
-      "Version": "4.5.4",
+      "Version": "4.5.5",
       "Dependencies": []
     },
     "System.Net.Http.WinHttpHandler": {
@@ -1475,7 +1493,7 @@
     },
     "System.Runtime.CompilerServices.Unsafe": {
       "Id": "System.Runtime.CompilerServices.Unsafe",
-      "Version": "5.0.0",
+      "Version": "6.0.0",
       "Dependencies": []
     },
     "System.Security.AccessControl": {
@@ -1637,11 +1655,11 @@
     },
     "System.Text.Encoding.CodePages": {
       "Id": "System.Text.Encoding.CodePages",
-      "Version": "5.0.0",
+      "Version": "6.0.0",
       "Dependencies": [
         {
-          "Item1": "Microsoft.NETCore.Platforms",
-          "Item2": "[5.0.0, )"
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[6.0.0, )"
         }
       ]
     },
@@ -1694,13 +1712,31 @@
         }
       ]
     },
-    "UiPath.Platform": {
-      "Id": "UiPath.Platform",
-      "Version": "22.10.2",
+    "UiPath.CodedWorkflows": {
+      "Id": "UiPath.CodedWorkflows",
+      "Version": "23.10.3",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "UiPath.Platform": {
+      "Id": "UiPath.Platform",
+      "Version": "23.10.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
         },
         {
           "Item1": "System.IO.Abstractions",
@@ -1714,7 +1750,91 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "21.10.5",
+      "Version": "23.10.4",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.System.Activities.Runtime",
+          "Item2": "[23.10.4, )"
+        },
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[16.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.AspNet.SignalR.Client",
+          "Item2": "[2.4.0, )"
+        },
+        {
+          "Item1": "Microsoft.AspNetCore.SignalR.Client",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.7.0, )"
+        },
+        {
+          "Item1": "Microsoft.CodeAnalysis.CSharp",
+          "Item2": "[4.5.0-2.22527.10, )"
+        },
+        {
+          "Item1": "Microsoft.CodeAnalysis.Common",
+          "Item2": "[4.5.0-2.22527.10, )"
+        },
+        {
+          "Item1": "Microsoft.CodeAnalysis.VisualBasic",
+          "Item2": "[4.5.0-2.22527.10, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.21, )"
+        },
+        {
+          "Item1": "Microsoft.VisualBasic",
+          "Item2": "[10.3.0, )"
+        },
+        {
+          "Item1": "MimeTypes",
+          "Item2": "[2.4.1, )"
+        },
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.3.3, )"
+        },
+        {
+          "Item1": "System.Activities.ViewModels",
+          "Item2": "[1.0.0-20230906.1, )"
+        },
+        {
+          "Item1": "System.Management.Automation",
+          "Item2": "[7.1.0, )"
+        },
+        {
+          "Item1": "UiPath.CodedWorkflows",
+          "Item2": "[23.10.3, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[23.10.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.6.69, )"
+        }
+      ]
+    },
+    "UiPath.System.Activities.Runtime": {
+      "Id": "UiPath.System.Activities.Runtime",
+      "Version": "23.10.4",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.System.Activities.Runtime.Windows",
+          "Item2": "[23.10.4, )"
+        }
+      ]
+    },
+    "UiPath.System.Activities.Runtime.Windows": {
+      "Id": "UiPath.System.Activities.Runtime.Windows",
+      "Version": "23.10.4",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -1734,15 +1854,15 @@
         },
         {
           "Item1": "Microsoft.CodeAnalysis.CSharp",
-          "Item2": "[3.8.0, )"
+          "Item2": "[4.5.0-2.22527.10, )"
         },
         {
           "Item1": "Microsoft.CodeAnalysis.Common",
-          "Item2": "[3.8.0, )"
+          "Item2": "[4.5.0-2.22527.10, )"
         },
         {
           "Item1": "Microsoft.CodeAnalysis.VisualBasic",
-          "Item2": "[3.8.0, )"
+          "Item2": "[4.5.0-2.22527.10, )"
         },
         {
           "Item1": "Microsoft.PowerShell.SDK",
@@ -1757,26 +1877,34 @@
           "Item2": "[10.3.0, )"
         },
         {
+          "Item1": "MimeTypes",
+          "Item2": "[2.4.1, )"
+        },
+        {
           "Item1": "SharpZipLib",
-          "Item2": "[1.2.0, )"
+          "Item2": "[1.3.3, )"
         },
         {
           "Item1": "System.Management.Automation",
           "Item2": "[7.1.0, )"
         },
         {
+          "Item1": "UiPath.CodedWorkflows",
+          "Item2": "[23.10.3, )"
+        },
+        {
           "Item1": "UiPath.Platform",
-          "Item2": "[21.10.0, )"
+          "Item2": "[23.10.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.5.3, )"
+          "Item2": "[1.6.69, )"
         }
       ]
     },
     "UiPath.Telemetry.Client": {
       "Id": "UiPath.Telemetry.Client",
-      "Version": "1.5.3",
+      "Version": "1.6.69",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -1965,40 +2093,40 @@
     {
       "Package": {
         "Id": "Microsoft.CodeAnalysis.Analyzers",
-        "Version": "3.0.0"
+        "Version": "3.3.3"
       },
       "Assemblies": [],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3"
     },
     {
       "Package": {
         "Id": "Microsoft.CodeAnalysis.Common",
-        "Version": "3.8.0"
+        "Version": "4.5.0-2.22527.10"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10"
     },
     {
       "Package": {
         "Id": "Microsoft.CodeAnalysis.CSharp",
-        "Version": "3.8.0"
+        "Version": "4.5.0-2.22527.10"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.CSharp.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10"
     },
     {
       "Package": {
         "Id": "Microsoft.CodeAnalysis.VisualBasic",
-        "Version": "3.8.0"
+        "Version": "4.5.0-2.22527.10"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.VisualBasic.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib\\netcoreapp3.1\\Microsoft.CodeAnalysis.VisualBasic.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.8.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10"
     },
     {
       "Package": {
@@ -2115,7 +2243,9 @@
         "Id": "Microsoft.Management.Infrastructure.CimCmdlets",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.Management.Infrastructure.CimCmdlets.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.1.0"
     },
     {
@@ -2157,7 +2287,9 @@
         "Id": "Microsoft.PowerShell.Commands.Diagnostics",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.Commands.Diagnostics.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.diagnostics\\7.1.0"
     },
     {
@@ -2165,7 +2297,9 @@
         "Id": "Microsoft.PowerShell.Commands.Management",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.Commands.Management.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.management\\7.1.0"
     },
     {
@@ -2173,7 +2307,9 @@
         "Id": "Microsoft.PowerShell.Commands.Utility",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.Commands.Utility.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.commands.utility\\7.1.0"
     },
     {
@@ -2181,7 +2317,9 @@
         "Id": "Microsoft.PowerShell.ConsoleHost",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.consolehost\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.ConsoleHost.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.consolehost\\7.1.0"
     },
     {
@@ -2189,7 +2327,9 @@
         "Id": "Microsoft.PowerShell.CoreCLR.Eventing",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.coreclr.eventing\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.CoreCLR.Eventing.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.coreclr.eventing\\7.1.0"
     },
     {
@@ -2197,7 +2337,9 @@
         "Id": "Microsoft.PowerShell.MarkdownRender",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.markdownrender\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.MarkdownRender.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.markdownrender\\7.1.0"
     },
     {
@@ -2213,7 +2355,9 @@
         "Id": "Microsoft.PowerShell.SDK",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.sdk\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.SDK.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.sdk\\7.1.0"
     },
     {
@@ -2221,7 +2365,9 @@
         "Id": "Microsoft.PowerShell.Security",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.security\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.PowerShell.Security.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.powershell.security\\7.1.0"
     },
     {
@@ -2250,7 +2396,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.Registry.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\Microsoft.Win32.Registry.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.registry\\5.0.0"
     },
@@ -2260,7 +2406,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.Registry.AccessControl.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\Microsoft.Win32.Registry.AccessControl.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\5.0.0"
     },
@@ -2270,7 +2416,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\lib\\netstandard2.0\\Microsoft.Win32.SystemEvents.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\runtimes\\win\\lib\\netcoreapp3.0\\Microsoft.Win32.SystemEvents.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0"
     },
@@ -2287,7 +2433,9 @@
         "Id": "Microsoft.WSMan.Management",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.wsman.management\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.WSMan.Management.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.wsman.management\\7.1.0"
     },
     {
@@ -2295,8 +2443,18 @@
         "Id": "Microsoft.WSMan.Runtime",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.wsman.runtime\\7.1.0\\runtimes\\win\\lib\\net5.0\\Microsoft.WSMan.Runtime.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\microsoft.wsman.runtime\\7.1.0"
+    },
+    {
+      "Package": {
+        "Id": "MimeTypes",
+        "Version": "2.4.1"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\mimetypes\\2.4.1"
     },
     {
       "Package": {
@@ -2403,12 +2561,22 @@
     {
       "Package": {
         "Id": "SharpZipLib",
-        "Version": "1.2.0"
+        "Version": "1.3.3"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\sharpziplib\\1.2.0\\lib\\netstandard2.0\\ICSharpCode.SharpZipLib.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\sharpziplib\\1.3.3\\lib\\netstandard2.1\\ICSharpCode.SharpZipLib.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\sharpziplib\\1.2.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\sharpziplib\\1.3.3"
+    },
+    {
+      "Package": {
+        "Id": "System.Activities.ViewModels",
+        "Version": "1.0.0-20230906.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib\\net6.0-windows7.0\\System.Activities.ViewModels.dll"
+      ],
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1"
     },
     {
       "Package": {
@@ -2423,12 +2591,12 @@
     {
       "Package": {
         "Id": "System.Collections.Immutable",
-        "Version": "5.0.0"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.collections.immutable\\6.0.0\\lib\\net6.0\\System.Collections.Immutable.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.collections.immutable\\5.0.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.collections.immutable\\6.0.0"
     },
     {
       "Package": {
@@ -2476,7 +2644,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.odbc\\5.0.0\\lib\\netstandard2.0\\System.Data.Odbc.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.odbc\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Data.Odbc.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.odbc\\5.0.0"
     },
@@ -2486,7 +2654,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.oledb\\5.0.0\\lib\\netstandard2.0\\System.Data.OleDb.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.oledb\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.Data.OleDb.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.oledb\\5.0.0"
     },
@@ -2496,7 +2664,7 @@
         "Version": "4.8.1"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\lib\\netcoreapp2.1\\System.Data.SqlClient.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\runtimes\\win\\lib\\netcoreapp2.1\\System.Data.SqlClient.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.data.sqlclient\\4.8.1"
     },
@@ -2516,7 +2684,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\lib\\netstandard2.0\\System.Diagnostics.EventLog.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Diagnostics.EventLog.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0"
     },
@@ -2526,7 +2694,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\lib\\netstandard2.0\\System.Diagnostics.PerformanceCounter.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Diagnostics.PerformanceCounter.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0"
     },
@@ -2536,7 +2704,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.DirectoryServices.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices\\5.0.0"
     },
@@ -2546,7 +2714,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.AccountManagement.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.DirectoryServices.AccountManagement.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices.accountmanagement\\5.0.0"
     },
@@ -2556,7 +2724,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\lib\\netstandard2.0\\System.DirectoryServices.Protocols.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.DirectoryServices.Protocols.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.directoryservices.protocols\\5.0.0"
     },
@@ -2566,7 +2734,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.drawing.common\\5.0.0\\lib\\netcoreapp3.0\\System.Drawing.Common.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.drawing.common\\5.0.0\\runtimes\\win\\lib\\netcoreapp3.0\\System.Drawing.Common.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.drawing.common\\5.0.0"
     },
@@ -2596,7 +2764,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.IO.FileSystem.AccessControl.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.IO.FileSystem.AccessControl.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0"
     },
@@ -2626,7 +2794,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0\\lib\\net5.0\\System.IO.Pipes.AccessControl.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0\\runtimes\\win\\lib\\net5.0\\System.IO.Pipes.AccessControl.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.pipes.accesscontrol\\5.0.0"
     },
@@ -2636,7 +2804,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.ports\\5.0.0\\lib\\netstandard2.0\\System.IO.Ports.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.ports\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.IO.Ports.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.io.ports\\5.0.0"
     },
@@ -2646,7 +2814,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.management\\5.0.0\\lib\\netstandard2.0\\System.Management.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.management\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Management.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.management\\5.0.0"
     },
@@ -2655,18 +2823,20 @@
         "Id": "System.Management.Automation",
         "Version": "7.1.0"
       },
-      "Assemblies": [],
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.management.automation\\7.1.0\\runtimes\\win\\lib\\net5.0\\System.Management.Automation.dll"
+      ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.management.automation\\7.1.0"
     },
     {
       "Package": {
         "Id": "System.Memory",
-        "Version": "4.5.4"
+        "Version": "4.5.5"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.memory\\4.5.4\\lib\\netcoreapp2.1\\_._"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.memory\\4.5.5\\lib\\netcoreapp2.1\\_._"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.memory\\4.5.4"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.memory\\4.5.5"
     },
     {
       "Package": {
@@ -2674,7 +2844,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0\\lib\\netstandard2.0\\System.Net.Http.WinHttpHandler.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.Net.Http.WinHttpHandler.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.net.http.winhttphandler\\5.0.0"
     },
@@ -2754,19 +2924,19 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.caching\\5.0.0\\lib\\netstandard2.0\\System.Runtime.Caching.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.Runtime.Caching.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.caching\\5.0.0"
     },
     {
       "Package": {
         "Id": "System.Runtime.CompilerServices.Unsafe",
-        "Version": "5.0.0"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\lib\\netcoreapp2.0\\System.Runtime.CompilerServices.Unsafe.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\lib\\net6.0\\System.Runtime.CompilerServices.Unsafe.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0"
     },
     {
       "Package": {
@@ -2774,7 +2944,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.Security.AccessControl.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.0\\System.Security.AccessControl.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.accesscontrol\\5.0.0"
     },
@@ -2784,7 +2954,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\lib\\netcoreapp3.0\\System.Security.Cryptography.Cng.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\runtimes\\win\\lib\\netcoreapp3.0\\System.Security.Cryptography.Cng.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0"
     },
@@ -2794,7 +2964,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\lib\\netcoreapp3.0\\System.Security.Cryptography.Pkcs.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\runtimes\\win\\lib\\netcoreapp3.0\\System.Security.Cryptography.Pkcs.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0"
     },
@@ -2804,7 +2974,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\lib\\netstandard2.0\\System.Security.Cryptography.ProtectedData.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.Security.Cryptography.ProtectedData.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0"
     },
@@ -2834,7 +3004,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\lib\\netstandard2.0\\System.Security.Principal.Windows.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\runtimes\\win\\lib\\netcoreapp2.1\\System.Security.Principal.Windows.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.security.principal.windows\\5.0.0"
     },
@@ -2874,8 +3044,8 @@
         "Version": "4.7.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.Primitives.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0\\lib\\netcoreapp2.1\\System.ServiceModel.Primitives.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.servicemodel.primitives\\4.7.0"
     },
@@ -2905,19 +3075,19 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\lib\\netstandard2.0\\System.ServiceProcess.ServiceController.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.ServiceProcess.ServiceController.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0"
     },
     {
       "Package": {
         "Id": "System.Text.Encoding.CodePages",
-        "Version": "5.0.0"
+        "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\lib\\netstandard2.0\\System.Text.Encoding.CodePages.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Text.Encoding.CodePages.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0"
     },
     {
       "Package": {
@@ -2935,7 +3105,7 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\lib\\netstandard2.0\\System.Threading.AccessControl.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\runtimes\\win\\lib\\netstandard2.0\\System.Threading.AccessControl.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0"
     },
@@ -2985,41 +3155,72 @@
         "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.windows.extensions\\5.0.0\\lib\\netcoreapp3.0\\System.Windows.Extensions.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.windows.extensions\\5.0.0\\runtimes\\win\\lib\\netcoreapp3.0\\System.Windows.Extensions.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\system.windows.extensions\\5.0.0"
     },
     {
       "Package": {
-        "Id": "UiPath.Platform",
-        "Version": "22.10.2"
+        "Id": "UiPath.CodedWorkflows",
+        "Version": "23.10.3"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\22.10.2\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.codedworkflows\\23.10.3\\lib\\net6.0-windows7.0\\UiPath.CodedWorkflows.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\22.10.2"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.codedworkflows\\23.10.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Platform",
+        "Version": "23.10.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\23.10.0\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
+      ],
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.platform\\23.10.0"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "21.10.5"
+        "Version": "23.10.4"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\lib\\net5.0-windows7.0\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\lib\\net5.0-windows7.0\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5\\lib\\net5.0-windows7.0\\UiPath.System.Activities.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\23.10.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\23.10.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\21.10.5"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities\\23.10.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities.Runtime",
+        "Version": "23.10.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime\\23.10.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Package.Runtime.dll"
+      ],
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime\\23.10.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities.Runtime.Windows",
+        "Version": "23.10.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
+      ],
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.4"
     },
     {
       "Package": {
         "Id": "UiPath.Telemetry.Client",
-        "Version": "1.5.3"
+        "Version": "1.6.69"
       },
       "Assemblies": [
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib\\netstandard2.0\\TelemetryClient.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib\\netstandard2.0\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.5.3"
+      "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.telemetry.client\\1.6.69"
     },
     {
       "Package": {
@@ -3029,8 +3230,8 @@
       "Assemblies": [
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib\\net5.0-windows7.0\\UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib\\net5.0-windows7.0\\UiPath.Testing.Activities.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib\\net5.0-windows7.0\\UiPath.Testing.RulesLibrary.dll",
-        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib\\net5.0-windows7.0\\UiPath.Testing.dll"
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib\\net5.0-windows7.0\\UiPath.Testing.dll",
+        "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2\\lib\\net5.0-windows7.0\\UiPath.Testing.RulesLibrary.dll"
       ],
       "Path": "C:\\Users\\SabyasachiBasu\\.nuget\\packages\\uipath.testing.activities\\22.10.2"
     }

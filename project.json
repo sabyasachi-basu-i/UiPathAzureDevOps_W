@@ -4,7 +4,7 @@
   "description": "Process for CI CD integration and DevOps Testing",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[21.10.5]",
+    "UiPath.System.Activities": "[23.10.4]",
     "UiPath.Testing.Activities": "[22.10.2]"
   },
   "webServices": [],
@@ -49,7 +49,8 @@
         "fileName": "TestCase.xaml"
       }
     ],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
