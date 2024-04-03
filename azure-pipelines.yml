@@ -152,6 +152,6 @@ stages:
             inputs:
               testTarget: 'TestSet'
               orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
-              testSet: 'UiPathAzureDevOps_Test'
+              testSet: 'UiTest_N'
               folderName: 'Default'
               testReportDestination: '$(Pipeline.Workspace)\drop\'
