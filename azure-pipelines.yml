@@ -21,6 +21,7 @@ stages:
             # Write your PowerShell commands here.              
             Write-Host "Deleting the Uploaded Package"
             Get-ChildItem -Path "$(Pipeline.Workspace)\drop\" -Include *.nupkg -File -Recurse | foreach { $_.Delete()}
+          errorActionPreference: 'continue'
 
       - task: UiPathPack@2
         inputs:
