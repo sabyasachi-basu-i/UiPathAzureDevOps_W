@@ -30,6 +30,7 @@ stages:
           outputType: 'Process'
           orchestratorConnection: 'UiPath_AZ_DevOps_SVC_Conn'
           outputPath: '$(Build.ArtifactStagingDirectory)'
+          runWorkflowAnalysis: true
       - publish: $(Build.ArtifactStagingDirectory)
         artifact: drop
 
